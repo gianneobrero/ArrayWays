@@ -1,12 +1,9 @@
 ﻿console.log("JS called")
 
-
-
 // number 1
 var container = document.getElementById("container");
 var arr = [];
 for (var i = 1; i <= 100; i++) {
-
     if (i%3 == 0) {
         arr.push("Fizz");
     }
